@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+    </style>
+    <title>Color Choice</title>
+  </head>
+  <body>
+    <h1>색깔을 선택해 보아요!</h1>
+    <div class="selector-box">
+      <input type="color" value="#ffffff" />
+      <button id="select-color">선택</button>
+    </div>
+    <div class="container">
+      <div class="color-info">
+        <p>내가 고른 색깔: <span id="color-text"></span></p>
+        <button id="copy-btn">복사</button>
+      </div>
+      <div class="color-box"></div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

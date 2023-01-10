@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gamja Flower', cursive;
+  border: none;
+}
+
+/* body 내 요소들 가운데 정렬 */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fbf9f4;
+}
+
+h1 {
+  color: #60432e;
+  margin: 0 0 20px 0;
+  font-size: 44px;
+}
+
+input,
+button {
+  height: 30px;
+  background-color: #f4eee0;
+  border: none;
+  /* 버튼에 손을 올리면 커서 모양 */
+  cursor: pointer;
+}
+
+input {
+  width: 140px;
+  appearance: none;
+}
+
+button {
+  width: 60px;
+  font-size: 16px;
+  color: #765036;
+  border-radius: 40px;
+}
+
+button:hover {
+  /* 글자 간격 지정 */
+  letter-spacing: 2px;
+  font-size: 19px;
+}
+
+span,
+p {
+  color: #765036;
+  font-size: 20px;
+}
+
+.color-box {
+  width: 360px;
+  height: 200px;
+  border: 3px solid #765036;
+  /* 배경색: 투명색 */
+  background-color: transparent;
+  border-radius: 40px 100px / 100px 40px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.selector-box {
+  display: flex;
+  justify-content: center;
+  background-color: #f4eee0;
+  border: 10px solid #f4eee0;
+  border-radius: 100px 40px / 40px 100px;
+  margin: 0 0 50px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.color-info {
+  display: flex;
+  gap: 10px;
+}
